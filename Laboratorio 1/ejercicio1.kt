@@ -1,6 +1,6 @@
 fun countNumbers(n: Int) {
     if (n <= 0) {
-        println("Ingresa un número mayor que cero.")
+        println("Ingresa un numero mayor que cero.")
         return
     }
 
@@ -28,12 +28,12 @@ fun isPrime(num: Int): Boolean {
 }
 
 fun main() {
-    print("Ingrese un número entero N: ")
+    print("Ingrese un numero entero N: ")
     val input = readLine()?.toIntOrNull()
 
     if (input != null) {
         countNumbers(input)
     } else {
-        println("Invalido, ingrese un número entero.")
+        println("Invalido, ingrese un numero entero.")
     }
 }
